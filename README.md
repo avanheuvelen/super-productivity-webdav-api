@@ -18,7 +18,7 @@ pip install super-productivity-webdav-api
 ## Usage:
 
 ```
-from webdav_task_manager.client import Client
+from super_productivity_webdav_api.client import Client
 
 # Initialize the client
 client = Client(
