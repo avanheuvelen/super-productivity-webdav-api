@@ -1,0 +1,2 @@
+class EtagChangedException(Exception):
+    pass

@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# Cache files
+*.egg-info/
+.eggs/
+*.egg
+*.pyo
+*.pyd
+*.whl
+
+# Build directories
+build/
+dist/
+pip-wheel-metadata/
+
+# Testing
+.tox/
+.nox/
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Documentation
+docs/_build/
+*.html
+
+# Linting tools
+.mypy_cache/
+.pytype/
+.pyre/
+.pylint.d/
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Environment files
+.env
+.env.*

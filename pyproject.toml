@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "super_productivity_webdav_api"
+version = "0.1.0"
+description = "A python API for managing Super Productivity tasks through webdav."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Arnoud van Heuvelen", email = "avanheuvelen@pm.me" }
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["webdav", "task management", "super-productivity"]
+dependencies = [
+    "webdav4>=0.10",
+    "nanoid>=2.0"
+]
+
+[project.urls]
+homepage = "https://github.com/avanheuvelen/super-productivity-webdav-api"
+repository = "https://github.com/avanheuvelen/super-productivity-webdav-api"
+issues = "https://github.com/avanheuvelen/super-productivity-webdav-api/issues"
